@@ -8,5 +8,6 @@ Most of the raw data is drawn from open data initiative of many governments and 
 institutions. Full references are included in the relevant files.
 
 **A note on the license**
+
 While the source code is licensed under the MIT license the associated data may not be so.
 Please refer to the original source license for more information.

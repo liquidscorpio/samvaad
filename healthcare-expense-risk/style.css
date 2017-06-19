@@ -1,0 +1,237 @@
+@media screen and (max-width: 480px) {
+  html, body {
+    color: #000;
+    height: 100%;
+    font-size: 10px;
+    background-color: #f0ebe4;
+    font-family: 'Gentium Basic', serif; }
+
+  body {
+    min-height: 100%;
+    padding: 42.06878px; }
+
+  strong {
+    font-weight: bold; }
+
+  article {
+    width: 100%;
+    display: block; }
+    article header {
+      margin-bottom: 42.06878px; }
+      article header h1 {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 13px;
+        text-transform: uppercase;
+        line-height: 21.03439px;
+        padding-bottom: 8.03446px;
+        font-family: 'Open Sans Condensed', sans-serif; }
+      article header h2 {
+        margin: auto;
+        font-weight: 300;
+        line-height: 150%;
+        text-align: center;
+        font-size: 21.03439px;
+        font-family: 'Bree Serif', serif; }
+    article section {
+      display: flex;
+      flex-direction: column; }
+      article section > * {
+        box-sizing: border-box; }
+      article section figure {
+        margin-bottom: 42.06878px; }
+        article section figure #absolute-risk {
+          width: 100%;
+          margin: auto;
+          height: 200px; }
+        article section figure figcaption {
+          margin-top: 42.06878px; }
+          article section figure figcaption table, article section figure figcaption tbody {
+            width: 100%;
+            display: block; }
+            article section figure figcaption table tr, article section figure figcaption tbody tr {
+              height: 13px; }
+            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
+              color: #866;
+              text-align: center;
+              font-size: 13px;
+              padding-top: 13px; }
+      article section aside p {
+        margin: auto;
+        border-radius: 2px;
+        text-align: justify;
+        font-size: 13px;
+        line-height: 21.03439px; }
+        article section aside p span {
+          border-bottom: 1px solid #f5a12f; }
+      article section aside p.stroke::after {
+        content: '';
+        float: right;
+        display: block;
+        margin-top: 42.06878px;
+        width: 68.06855px;
+        border-top: 2px solid #c7272f; } }
+@media screen and (min-width: 481px) {
+  html, body {
+    color: #000;
+    height: 100%;
+    font-size: 10px;
+    background-color: #f0ebe4;
+    font-family: 'Gentium Basic', serif; }
+
+  body {
+    min-height: 100%;
+    padding: 48.5409px; }
+
+  strong {
+    font-weight: bold; }
+
+  article {
+    width: 100%;
+    display: block; }
+    article header {
+      margin-bottom: 48.5409px; }
+      article header h1 {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 15px;
+        text-transform: uppercase;
+        line-height: 24.27045px;
+        padding-bottom: 9.27053px;
+        font-family: 'Open Sans Condensed', sans-serif; }
+      article header h2 {
+        margin: auto;
+        font-weight: 300;
+        line-height: 150%;
+        text-align: center;
+        font-size: 24.27045px;
+        font-family: 'Bree Serif', serif; }
+    article section {
+      display: flex;
+      flex-direction: column; }
+      article section > * {
+        box-sizing: border-box; }
+      article section figure {
+        margin-bottom: 48.5409px; }
+        article section figure #absolute-risk {
+          width: 100%;
+          margin: auto;
+          height: 200px; }
+        article section figure figcaption {
+          margin-top: 48.5409px; }
+          article section figure figcaption table, article section figure figcaption tbody {
+            width: 100%;
+            display: block; }
+            article section figure figcaption table tr, article section figure figcaption tbody tr {
+              height: 15px; }
+            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
+              color: #866;
+              text-align: center;
+              font-size: 15px;
+              padding-top: 15px; }
+      article section aside p {
+        margin: auto;
+        border-radius: 2px;
+        text-align: justify;
+        font-size: 15px;
+        line-height: 24.27045px; }
+        article section aside p span {
+          border-bottom: 1px solid #f5a12f; }
+      article section aside p.stroke::after {
+        content: '';
+        float: right;
+        display: block;
+        margin-top: 48.5409px;
+        width: 78.54063px;
+        border-top: 2px solid #c7272f; }
+
+  article section figure #absolute-risk {
+    height: 380px; } }
+@media screen and (min-width: 960px) {
+  html, body {
+    color: #000;
+    height: 100%;
+    font-size: 10px;
+    background-color: #f0ebe4;
+    font-family: 'Gentium Basic', serif; }
+
+  body {
+    min-height: 100%;
+    padding: 55.01302px; }
+
+  strong {
+    font-weight: bold; }
+
+  article {
+    width: 100%;
+    display: block; }
+    article header {
+      margin-bottom: 55.01302px; }
+      article header h1 {
+        text-align: center;
+        letter-spacing: 3px;
+        font-size: 17px;
+        text-transform: uppercase;
+        line-height: 27.50651px;
+        padding-bottom: 10.5066px;
+        font-family: 'Open Sans Condensed', sans-serif; }
+      article header h2 {
+        margin: auto;
+        font-weight: 300;
+        line-height: 150%;
+        text-align: center;
+        font-size: 27.50651px;
+        font-family: 'Bree Serif', serif; }
+    article section {
+      display: flex;
+      flex-direction: column; }
+      article section > * {
+        box-sizing: border-box; }
+      article section figure {
+        margin-bottom: 55.01302px; }
+        article section figure #absolute-risk {
+          width: 100%;
+          margin: auto;
+          height: 200px; }
+        article section figure figcaption {
+          margin-top: 55.01302px; }
+          article section figure figcaption table, article section figure figcaption tbody {
+            width: 100%;
+            display: block; }
+            article section figure figcaption table tr, article section figure figcaption tbody tr {
+              height: 17px; }
+            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
+              color: #866;
+              text-align: center;
+              font-size: 17px;
+              padding-top: 17px; }
+      article section aside p {
+        margin: auto;
+        border-radius: 2px;
+        text-align: justify;
+        font-size: 17px;
+        line-height: 27.50651px; }
+        article section aside p span {
+          border-bottom: 1px solid #f5a12f; }
+      article section aside p.stroke::after {
+        content: '';
+        float: right;
+        display: block;
+        margin-top: 55.01302px;
+        width: 89.01272px;
+        border-top: 2px solid #c7272f; }
+
+  article header h1 {
+    letter-spacing: 5px; }
+  article section {
+    display: flex;
+    flex-direction: row; }
+    article section figure {
+      width: 55%; }
+      article section figure #absolute-risk {
+        height: 400px; }
+    article section aside {
+      width: 45%;
+      padding: 58.24908px; } }
+
+/*# sourceMappingURL=style.css.map */

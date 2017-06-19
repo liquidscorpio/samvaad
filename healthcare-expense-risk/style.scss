@@ -1,0 +1,155 @@
+$phi: 1.61803;
+@mixin baseline-style-generator($baseline) {
+    $gutter: $baseline * 2 * $phi;
+
+    html, body {
+        color: #000;
+        height: 100%;
+        font-size: 10px;
+        background-color: #f0ebe4;
+        font-family: 'Gentium Basic', serif;
+    }
+
+    body {
+        min-height: 100%;
+        padding: $gutter;
+    }
+
+    strong {
+        font-weight: bold;
+    }
+
+    article {
+        width: 100%;
+        display: block;
+
+        header {
+            margin-bottom: $gutter;
+
+            h1 {
+                text-align: center;
+                letter-spacing: 3px;
+                font-size: $baseline;
+                text-transform: uppercase;
+                line-height: $baseline * $phi;
+                padding-bottom: $baseline / $phi;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+
+            h2 {
+                margin: auto;
+                font-weight: 300;
+                line-height: 150%;
+                text-align: center;
+                font-size: $baseline * $phi;
+                font-family: 'Bree Serif', serif;
+            }
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+
+            > * {
+                box-sizing: border-box;
+            }
+
+            figure {
+                margin-bottom: $gutter;
+
+                #absolute-risk {
+                    width: 100%;
+                    margin: auto;
+                    height: 200px;
+                }
+
+                figcaption {
+                    margin-top: $gutter;
+
+                    table, tbody {
+                        width: 100%;
+                        display: block;
+
+                        tr {
+                            height: $baseline;
+                        }
+
+                        #caption-text {
+                            color: #866;
+                            text-align: center;
+                            font-size: $baseline;
+                            padding-top: $baseline;
+                        }
+                    }
+                }
+            }
+
+            aside {
+                p {
+                    margin: auto;
+                    border-radius: 2px;
+                    text-align: justify;
+                    font-size: $baseline;
+                    line-height: $baseline * $phi;
+
+                    span {
+                        border-bottom: 1px solid #f5a12f;
+                    }
+                }
+
+                p.stroke::after {
+                    content: '';
+                    float: right;
+                    display: block;
+                    margin-top: $gutter;
+                    width: $gutter * $phi;
+                    border-top: 2px solid #c7272f;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    @include baseline-style-generator(13px);
+}
+
+@media screen and (min-width: 481px) {
+    @include baseline-style-generator(15px);
+    article {
+      section {
+        figure {
+          #absolute-risk {
+            height: 380px;
+          }
+        }
+      }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    @include baseline-style-generator(17px);
+
+    article {
+        header {
+          h1 {
+            letter-spacing: 5px;
+          }
+        }
+        section {
+            display: flex;
+            flex-direction: row;
+
+            figure {
+                width: 55%;
+                #absolute-risk {
+                  height: 400px;
+                }
+            }
+            aside {
+                width: 45%;
+                padding: 18px * 2 * $phi;
+            }
+        }
+    }
+}

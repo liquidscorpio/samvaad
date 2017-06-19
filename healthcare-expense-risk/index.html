@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Castatrophic Healthcare Expenditure | samvaad -  Data Visualisation Magazine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Risk of Castatrophic Healthcare Expenditure">
+    <meta property="og:site_name" content="samvaad">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="Visualising countrywise risk of healthcare expenditure">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Gentium+Basic|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+</head>
+<body>
+    <article>
+        <header>
+            <hgroup>
+                <h1>Castastrophic Healthcare Expenditure</h1>
+                <h2>Analysis into <span style="color: #c7272f">vulnerability</span> of the general populace</h2>
+            </hgroup>
+        </header>
+        <section id="introduction">
+            <figure>
+                <div id="absolute-risk"></div>
+                <figcaption>
+                    <table>
+                      <tbody>
+                        <tr id="caption-row"></tr>
+                        <tr>
+                          <td id="caption-text">
+                            Per Capita Dollar Exposure: Most ⟶ Least
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </figcaption>
+            </figure>
+            <aside>
+                <p class="stroke">
+                A cursory look into the dataset listed by <span>The World Bank</span> tells a rather surprising story: People in developed regions like Nothern America and continental Europe are exposed higher healthcare expenses from household pockets as against Africa and  Asia. It tells only a part of the story and the reality is much more depressing.
+                </p>
+            </aside>
+        </section>
+    </article>
+    <script src="d3.v3.min.js"></script>
+    <script src="topojson.min.js"></script>
+    <script src="datamaps.world.hires.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

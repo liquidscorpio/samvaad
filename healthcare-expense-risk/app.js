@@ -95,7 +95,10 @@
                 xhr.responseText,
                 'Post GDP Luminosity',
                 function(x) {
-                    return '';
+                    let v = x['Percent of Per Capita GDP'];
+                    if (v) {
+                        return v.toFixed(2) + ' % of household income';
+                    }
                 }
             );
         });

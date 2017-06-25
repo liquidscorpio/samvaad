@@ -36,11 +36,13 @@
     article section {
       display: flex;
       flex-direction: column; }
+      article section#part-ii {
+        margin-top: 84.13756px; }
       article section > * {
         box-sizing: border-box; }
       article section figure {
         margin-bottom: 42.06878px; }
-        article section figure #absolute-risk {
+        article section figure .choropleth {
           width: 100%;
           margin: auto;
           height: 200px; }
@@ -51,11 +53,11 @@
             display: block; }
             article section figure figcaption table tr, article section figure figcaption tbody tr {
               height: 13px; }
-            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
-              color: #866;
+            article section figure figcaption table #caption-text, article section figure figcaption table #caption-text-ii, article section figure figcaption tbody #caption-text, article section figure figcaption tbody #caption-text-ii {
               text-align: center;
-              font-size: 13px;
-              padding-top: 13px; }
+              padding-top: 13px;
+              font-size: 11.38197px;
+              line-height: 18.41637px; }
       article section aside p {
         margin: auto;
         border-radius: 2px;
@@ -109,11 +111,13 @@
     article section {
       display: flex;
       flex-direction: column; }
+      article section#part-ii {
+        margin-top: 97.0818px; }
       article section > * {
         box-sizing: border-box; }
       article section figure {
         margin-bottom: 48.5409px; }
-        article section figure #absolute-risk {
+        article section figure .choropleth {
           width: 100%;
           margin: auto;
           height: 200px; }
@@ -124,11 +128,11 @@
             display: block; }
             article section figure figcaption table tr, article section figure figcaption tbody tr {
               height: 15px; }
-            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
-              color: #866;
+            article section figure figcaption table #caption-text, article section figure figcaption table #caption-text-ii, article section figure figcaption tbody #caption-text, article section figure figcaption tbody #caption-text-ii {
               text-align: center;
-              font-size: 15px;
-              padding-top: 15px; }
+              padding-top: 15px;
+              font-size: 13.38197px;
+              line-height: 21.65243px; }
       article section aside p {
         margin: auto;
         border-radius: 2px;
@@ -145,7 +149,7 @@
         width: 78.54063px;
         border-top: 2px solid #c7272f; }
 
-  article section figure #absolute-risk {
+  article section figure .choropleth {
     height: 380px; } }
 @media screen and (min-width: 960px) {
   html, body {
@@ -185,11 +189,13 @@
     article section {
       display: flex;
       flex-direction: column; }
+      article section#part-ii {
+        margin-top: 110.02604px; }
       article section > * {
         box-sizing: border-box; }
       article section figure {
         margin-bottom: 55.01302px; }
-        article section figure #absolute-risk {
+        article section figure .choropleth {
           width: 100%;
           margin: auto;
           height: 200px; }
@@ -200,11 +206,11 @@
             display: block; }
             article section figure figcaption table tr, article section figure figcaption tbody tr {
               height: 17px; }
-            article section figure figcaption table #caption-text, article section figure figcaption tbody #caption-text {
-              color: #866;
+            article section figure figcaption table #caption-text, article section figure figcaption table #caption-text-ii, article section figure figcaption tbody #caption-text, article section figure figcaption tbody #caption-text-ii {
               text-align: center;
-              font-size: 17px;
-              padding-top: 17px; }
+              padding-top: 17px;
+              font-size: 15.38197px;
+              line-height: 24.88849px; }
       article section aside p {
         margin: auto;
         border-radius: 2px;
@@ -228,8 +234,8 @@
     flex-direction: row; }
     article section figure {
       width: 55%; }
-      article section figure #absolute-risk {
-        height: 400px; }
+      article section figure .choropleth {
+        height: 500px; }
     article section aside {
       width: 45%;
       padding: 58.24908px; } }

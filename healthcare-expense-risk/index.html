@@ -23,14 +23,15 @@
         </header>
         <section id="introduction">
             <figure>
-                <div id="absolute-risk"></div>
+                <div id="absolute-risk" class="choropleth"></div>
                 <figcaption>
                     <table>
                       <tbody>
                         <tr id="caption-row"></tr>
                         <tr>
                           <td id="caption-text">
-                            Per Capita Dollar Exposure: Most ⟶ Least
+                            Per Capita Exposure (US$ 2011) <br/>
+                            Most ⟶ Least
                           </td>
                         </tr>
                       </tbody>
@@ -42,6 +43,29 @@
                 A cursory look into the dataset listed by <span>The World Bank</span> tells a rather surprising story: People in developed regions like Nothern America and continental Europe are exposed higher healthcare expenses from household pockets as against Africa and  Asia. It tells only a part of the story and the reality is much more depressing.
                 </p>
             </aside>
+        </section>
+        <section id="part-ii">
+            <aside>
+                <p class="stroke">
+                When adjusted for Per Capita Income as published by The World Bank itself, the choropleth is almost entirely inverted. The reason lies in absymally low incomes in many parts of Africa and Asia leading to miniscule budgets and consequently low out-of-pocket expenses on healthcare.
+                </p>
+            </aside>
+            <figure>
+                <div id="income-adj-risk" class="choropleth"></div>
+                <figcaption>
+                    <table>
+                      <tbody>
+                        <tr id="caption-row-ii"></tr>
+                        <tr>
+                          <td id="caption-text-ii">
+                            Per Capita Exposure (US$ 2011) <br/>
+                            Most ⟶ Least
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </figcaption>
+            </figure>
         </section>
     </article>
     <script src="d3.v3.min.js"></script>

@@ -49,7 +49,9 @@ $phi: 1.61803;
         section {
             display: flex;
             flex-direction: column;
-
+            &#part-ii {
+                margin-top: $gutter * 2;
+            }
             > * {
                 box-sizing: border-box;
             }
@@ -57,7 +59,7 @@ $phi: 1.61803;
             figure {
                 margin-bottom: $gutter;
 
-                #absolute-risk {
+                .choropleth {
                     width: 100%;
                     margin: auto;
                     height: 200px;
@@ -74,11 +76,11 @@ $phi: 1.61803;
                             height: $baseline;
                         }
 
-                        #caption-text {
-                            color: #866;
+                        #caption-text, #caption-text-ii {
                             text-align: center;
-                            font-size: $baseline;
                             padding-top: $baseline;
+                            font-size: $baseline - $phi;
+                            line-height: ($baseline - $phi) * $phi;
                         }
                     }
                 }
@@ -119,7 +121,7 @@ $phi: 1.61803;
     article {
       section {
         figure {
-          #absolute-risk {
+          .choropleth {
             height: 380px;
           }
         }
@@ -142,8 +144,8 @@ $phi: 1.61803;
 
             figure {
                 width: 55%;
-                #absolute-risk {
-                  height: 400px;
+                .choropleth {
+                  height: 500px;
                 }
             }
             aside {

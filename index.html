@@ -4,16 +4,38 @@
     <meta charset="UTF-8">
     <title>Samvaad - A magazine of visualisation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="canonical" href="https://liquidscorpio.github.io/samvaad/">
     <meta property="og:title" content="Samvaad - A magazine of visualisation">
     <meta property="og:site_name" content="samvaad">
     <meta property="og:url" content="https://liquidscorpio.github.io/samvaad/">
     <meta property="og:description" content="A coffee table style magazine of visualisation.">
     <meta property="og:type" content="article">
+    <link rel="canonical" href="https://liquidscorpio.github.io/samvaad/">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="margin: 24px; font-size: 24px;">
-        Coming Soon
-    </h1>
+    <header>
+        <h1>संवाद // Samvaad</h1>
+        <h2>A magazine of open data visualisations</h2>
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li>
+                <a href="/healthcare-expense-risk" target="_blank">
+                    <span class="pre-text">प्रथम // First</span>
+                    <span class="headline">Healthcare Expense Risk</span>
+                    <span class="sub-text">
+                        We use data published by The World Bank to explore vulnerability of household in each country to healthcare expenses.
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        var fontTag = document.createElement('link');
+        fontTag.rel = 'stylesheet';
+        fontTag.href = 'https://fonts.googleapis.com/css?family=Gentium+Basic:400,700|Quicksand:300,400,700';
+        document.head.appendChild(fontTag);
+    </script>
 </body>
 </html>

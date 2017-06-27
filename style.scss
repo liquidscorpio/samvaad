@@ -1,0 +1,89 @@
+$phi: 1.618033;
+$base-font: 20px;
+$gutter: $base-font * $phi;
+
+$primary: #0066ff;
+$gray: darken(white, 50);
+
+@mixin sub-text {
+    color: $gray;
+    letter-spacing: 1px;
+    font-size: $base-font / $phi;
+    line-height: $base-font + $phi;
+}
+
+@mixin link-hover {
+    transition: color 300ms ease;
+    &:hover {
+        color: darken($primary, 7);
+        transition: color 300ms ease;
+    }
+}
+
+html, body {
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    color: #000;
+    font-size: $base-font;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    @include link-hover;
+}
+
+header {
+    $large-font: 28px;
+    margin: $gutter;
+    text-align: center;
+    padding-bottom: $gutter;
+    h1 {
+        font-weight: bold;
+        font-size: $large-font;
+        line-height: $large-font * $phi;
+    }
+    h2 {
+        @include sub-text;
+        text-transform: uppercase;
+    }
+}
+
+ul {
+    margin: auto;
+    max-width: 640px;
+    padding: 0 $gutter;
+    li {
+        .pre-text {
+            @include sub-text;
+            font-weight: 300;
+        }
+        .headline {
+            @include link-hover;
+            display: block;
+            color: $primary;
+            font-weight: bold;
+            font-size: $base-font;
+            text-transform: uppercase;
+            line-height: $base-font * $phi;
+        }
+        .sub-text {
+            @include sub-text;
+            display: block;
+            text-align: justify;
+        }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    $large-font: 48px;
+    header {
+        h1 {
+            font-size: $large-font;
+            line-height: $large-font * $phi;
+        }
+    }
+}

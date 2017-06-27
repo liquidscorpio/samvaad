@@ -38,16 +38,21 @@ ul {
     margin-bottom: 32.36066px;
     padding-bottom: 32.36066px; }
     ul li:not(:last-child) {
-      border-bottom: 1px solid #bcf331; }
+      border-bottom: 1px solid #F4DD6E; }
+    ul li:nth-child(even) {
+      text-align: right; }
+    ul li span {
+      display: block; }
     ul li .pre-text {
       color: gray;
       letter-spacing: 1px;
       font-size: 12.36069px;
       line-height: 21.61803px;
-      font-weight: 300; }
+      color: #C09014;
+      font-weight: bold;
+      text-transform: uppercase; }
     ul li .headline {
       transition: color 300ms ease;
-      display: block;
       color: #6831d3;
       font-weight: bold;
       font-size: 20px;

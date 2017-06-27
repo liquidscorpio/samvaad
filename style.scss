@@ -4,7 +4,7 @@ $gutter: $base-font * $phi;
 
 $primary: #6831d3;
 $gray: darken(white, 50);
-$border-color: #bcf331;
+$border-color: #F4DD6E;
 
 @mixin sub-text {
     color: $gray;
@@ -64,13 +64,20 @@ ul {
         &:not(:last-child) {
             border-bottom: 1px solid $border-color;
         }
+        &:nth-child(even) {
+            text-align: right;
+        }
+        span {
+            display: block;
+        }
         .pre-text {
             @include sub-text;
-            font-weight: 300;
+            color: #C09014;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         .headline {
             @include link-hover;
-            display: block;
             color: $primary;
             font-weight: bold;
             font-size: $base-font;

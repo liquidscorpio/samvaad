@@ -1,5 +1,6 @@
 html, body {
   font-size: 10px;
+  background-color: #fffefd;
   font-family: 'Quicksand', sans-serif; }
 
 body {
@@ -11,7 +12,7 @@ a {
   text-decoration: none;
   transition: color 300ms ease; }
   a:hover {
-    color: #0058db;
+    color: #5927b9;
     transition: color 300ms ease; }
 
 header {
@@ -33,30 +34,35 @@ ul {
   margin: auto;
   max-width: 640px;
   padding: 0 32.36066px; }
-  ul li .pre-text {
-    color: gray;
-    letter-spacing: 1px;
-    font-size: 12.36069px;
-    line-height: 21.61803px;
-    font-weight: 300; }
-  ul li .headline {
-    transition: color 300ms ease;
-    display: block;
-    color: #0066ff;
-    font-weight: bold;
-    font-size: 20px;
-    text-transform: uppercase;
-    line-height: 32.36066px; }
-    ul li .headline:hover {
-      color: #0058db;
-      transition: color 300ms ease; }
-  ul li .sub-text {
-    color: gray;
-    letter-spacing: 1px;
-    font-size: 12.36069px;
-    line-height: 21.61803px;
-    display: block;
-    text-align: justify; }
+  ul li {
+    margin-bottom: 32.36066px;
+    padding-bottom: 32.36066px; }
+    ul li:not(:last-child) {
+      border-bottom: 1px solid #f3c931; }
+    ul li .pre-text {
+      color: gray;
+      letter-spacing: 1px;
+      font-size: 12.36069px;
+      line-height: 21.61803px;
+      font-weight: 300; }
+    ul li .headline {
+      transition: color 300ms ease;
+      display: block;
+      color: #6831d3;
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      line-height: 32.36066px; }
+      ul li .headline:hover {
+        color: #5927b9;
+        transition: color 300ms ease; }
+    ul li .sub-text {
+      color: gray;
+      letter-spacing: 1px;
+      font-size: 12.36069px;
+      line-height: 21.61803px;
+      display: block;
+      text-align: justify; }
 
 @media screen and (min-width: 720px) {
   header h1 {
